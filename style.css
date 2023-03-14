@@ -60,3 +60,21 @@ body{
 h1, h2{
     font-family: 'Playfair Display', Arial, sans-serif;
 }
+/*====FONT STYLING====*/
+body{
+    font-size: 18px;
+    line-height: 32px;
+    color: #333;
+}
+h1{
+    font-size: 28.8px;
+}
+h2{
+    font-size: 25.6px;
+    color: #e5127d;
+}
+#header-paragraph{
+    font-size: 18 px;
+    color: #8c8e9b;
+    letter-spacing: 2px;
+}
