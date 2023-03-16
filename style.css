@@ -103,6 +103,37 @@ pre,table,fieldset,hr, img,
     color: #fff;
 	background-color: #42444e;
 }
+@media (min-width: 768px){
+    .header{
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 33.3%;
+    }
+}
+@media (min-width: 1025px){
+    .header{
+        width: 20.625%;
+    }
+  }
+/*Primary Content Wrapper Styles*/
+
+@media (min-width: 768px){
+  .content{
+    float: right;
+    width: 66.6%;
+    max-width: 812px;
+  }
+}
+@media (min-width: 1025px){
+    .content{
+        float: none;
+        position: absolute;
+        left: 20.625%; 
+    }
+
+}
+
 /*Article Styles*/
 
 .post{
@@ -114,7 +145,7 @@ pre,table,fieldset,hr, img,
     width: 100%;
 }
 
-/*====COMPONENT STYLESS====*/
+/*====COMPONENT STYLES====*/
 .button{
     display: inline-block;
     border: 1px solid  #8c8e9b;
